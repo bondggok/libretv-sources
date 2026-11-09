@@ -1,0 +1,18 @@
+{
+  "name": "LibreTV 示例订阅",
+  "version": 2,
+  "sources": [
+    {
+      "name": "厂长资源",
+      "url": "https://api.changzhang.tv/api.php/provide/vod/",
+      "isAdult": false
+    }
+  ],
+  "liveSources": [
+    {
+      "name": "iptv-org 中国频道",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+      "epg": "https://epg.pw/xmltv/epg_CN.xml"
+    }
+  ]
+}
